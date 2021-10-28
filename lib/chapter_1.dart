@@ -1,34 +1,34 @@
 import 'dart:math';
 
 void main() {
-  /* Mini-exercise 1
+  /* //Mini-exercise 1
   var sin45 = sin(45 * pi / 180);
   print(sin45);
   var equalOfSin45 = 1 / sqrt(2);
   print(equalOfSin45);
   */
 
-  /* Mini-exercise 2
+  /* //Mini-exercise 2
   int myAge = 25;
   double averageAge = 25;
   averageAge = (myAge + 29) / 2;
   print(averageAge);
   */
 
-  /* Mini-exercise 3
+  /* //Mini-exercise 3
   const testNumber = 5;
   const evenOdd = testNumber % 2;
   print(evenOdd);
    */
 
-  /* Challenge 1
+  /* //Challenge 1
   const int c1MyAge = 25;
   int myDogs = 0;
   myDogs += 1;
   print(myDogs);
    */
 
-  /* Challenge 2
+  /* //Challenge 2
   int age = 16;
   print(age);
   age = 30;
@@ -36,7 +36,7 @@ void main() {
   // Added int out of "var, int, const and final". Var works as well; Const and final do not work due to the sound null safety.
    */
 
-  /* Challenge 3
+  /* //Challenge 3
   const x = 46;
   const y = 10;
 
@@ -49,7 +49,7 @@ void main() {
 
    */
 
-  /* Challenge 4
+  /* //Challenge 4
   const double rating1 = 1;
   const double rating2 = 3;
   const double rating3 = 5;
@@ -57,7 +57,7 @@ void main() {
   print(averageRating);
    */
 
-  /* Challenge 5
+  /* //Challenge 5
   const double a = 1;
   const double b = -2;
   const double c = 1;
