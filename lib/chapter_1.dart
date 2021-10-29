@@ -18,6 +18,7 @@ void main() {
   //
   // int myAge = 25;
   //
+  //
   // Mini-exercise 3
   // Declare a variable of type double called averageAge. Initially, set it to your own age.
   // Then, set it to the average of your age and that of your best friend.
@@ -32,6 +33,7 @@ void main() {
   // Create a constant called testNumber and initialize it with whatever integer you want.
   // Next, create another constant called evenOdd and set it to equal testNumber modulo 2.
   // Now, change testNumber to various values and note what you observe.
+  //
   // const int testNumber = 5;
   // const double evenOdd = testNumber % 2;
   // print(evenOdd);
@@ -42,7 +44,7 @@ void main() {
   // Declare an int variable called myDogs and set that to the equal of the number of dogs you own.
   // Then imagine you bought a new puppy and increment the number of dogs you own by one.
   //
-  // const int c1MyAge = 25;
+  // const int myAge = 25;
   // int myDogs = 0;
   // myDogs += 1;
   // print(myDogs);
@@ -75,7 +77,6 @@ void main() {
   // print(answer3);
   //
   //
-  //
   // Challenge 4
   // Declare three constants, rating1, rating2, and rating3 of type double and assign them values.
   // Calculate the average rating and store the result in a const called averageRating.
@@ -97,6 +98,5 @@ void main() {
   // double x = (-b + sqrt((b * b) - (4 * a * c))) / (2 * a);
   //
   // print(x);
-  //
 
 }
