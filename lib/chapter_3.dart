@@ -165,6 +165,9 @@ void main() {
   // Challenge 7
   // Print the sequence 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0
 
-  const sequence = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0];
-  sequence.forEach((number) => print(number));
+  double sequence = 0.0;
+  while(sequence <= 1) {
+    sequence += 0.1;
+    print(sequence);
+  }
 }
