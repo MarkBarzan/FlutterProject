@@ -71,20 +71,21 @@ void main() {
   // Pass an anonymous function to repeatTask to square the input of 2 four times.
   // Confirm that you get the result 65536.
 
-  // int repeatTask(int times, int input, Function task) {
-  //   input = 2;
-  //   for(times = 0; times <= 3; times++) {
-  //     input *= input;
-  //     print(input);
-  //   }
-  //   return input;
-  // }
-  int repeatTask(int times, int input) {
-    input = 2;
-    for(times = 0; times <= 3; times++) {
-      input *= input;
-      print(input);
+  int repeatTask(int times, int input, Function(int) task) {
+    int inputSquared = task(input);
+    for (var i = 1; i < times; i++) {
+      inputSquared = task(inputSquared);
     }
-    return input;
+    return inputSquared;
   }
+
+  int challenge2 = repeatTask(4, 2, (int input) {
+    return input * input;
+  });
+
+  // Challenge 3
+  // Update challenge 2 to use arrow syntax
+
+  int challenge3 = repeatTask(4, 2, (int input) => input * input);
+
 }
